@@ -65,7 +65,7 @@ function startTimer() {
             document.getElementById('outline').style.strokeDashoffset =  percComplete;
             // console.log(percComplete);
         }
-    }, 10)
+    }, 1000)
 }
 
 function pauseTimer() {
